@@ -76,7 +76,7 @@
     right: 0;
 }
 
-.cart_items_container .cart-item{
+.cart_items_container .cart_item{
     position: relative;
     margin:2rem 0;
     display: flex;
@@ -84,7 +84,7 @@
     gap:1.5rem;
 }
 
-.cart_items_container .cart_item .fa-times{
+.cart_items_container .cart_item .fa_times{
     position: absolute;
     top:1rem; right: 1rem;
     font-size: 2rem;
@@ -92,7 +92,7 @@
     color: var(--black);
 }
 
-.cart_items_container .cart_item .fa-times:hover{
+.cart_items_container .cart_item .fa_times:hover{
     color:var(--main-color);
 }
 
