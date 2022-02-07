@@ -63,55 +63,129 @@
     color: var(--main-color);
 }
 
-.cart_items_container{
+.cart_items_container {
     position: absolute;
-    top:100%; right: -100%;
+    top: 100%;
+    right: -100%;
     height: calc(100vh - 9.5rem);
     width: 35rem;
     background: #fff;
-    padding:0 1.5rem;
+    padding: 0 1.5rem;
 }
 
-.cart_items_container.active{
+.cart_items_container.active {
     right: 0;
 }
 
-.cart_items_container .cart_item{
+.cart_items_container .cart_item {
     position: relative;
-    margin:2rem 0;
+    margin: 2rem 0;
     display: flex;
     align-items: center;
-    gap:1.5rem;
+    gap: 1.5rem;
 }
 
-.cart_items_container .cart_item .fa_times{
+.cart_items_container .cart_item .fa_times {
     position: absolute;
-    top:1rem; right: 1rem;
+    top: 1rem;
+    right: 1rem;
     font-size: 2rem;
     cursor: pointer;
     color: var(--black);
 }
 
-.cart_items_container .cart_item .fa_times:hover{
-    color:var(--main-color);
+.cart_items_container .cart_item .fa_times:hover {
+    color: var(--main-color);
 }
 
-.cart_items_container .cart_item img{
+.cart_items_container .cart_item img {
     height: 7rem;
 }
 
-.cart_items_container .cart_item .content h3{
+.cart_items_container .cart_item .content h3 {
     font-size: 2rem;
-    color:var(--black);
+    color: var(--black);
     padding-bottom: .5rem;
 }
 
-.cart_items_container .cart_item .content .price{
+.cart_items_container .cart_item .content .price {
     font-size: 1.5rem;
-    color:var(--main-color);
+    color: var(--main-color);
 }
 
-.cart_items_container .btn{
+.cart_items_container .btn {
     width: 100%;
     text-align: center;
+}
+
+@media (max-width: 991px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 1.5rem 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .icons .fas_fa_bars {
+        display: inline-block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background: #fff;
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
+    }
+
+    .navbar.active {
+        right: 0;
+    }
+
+    .navbar a {
+        color: var(--black);
+        display: block;
+        margin: 1.5rem;
+        padding: .5rem;
+        font-size: 2rem;
+    }
+
+    .search_form {
+        width: 90%;
+        right: 2rem;
+    }
+
+    .home {
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home .content h3 {
+        font-size: 4.5rem;
+    }
+
+    .home .content p {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    html {
+        font-size: 50%;
+    }
+
 }
