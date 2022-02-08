@@ -40,7 +40,7 @@ const Nav = () => {
                 <a href="#menu">Menu</a>
                 <a href="#products">Products</a>
                 <a href="#review">Review</a>
-                <a href="#contacts">Contacts</a>
+                <a href="#contacts">Contact</a>
                 <a href="#blogs">Blogs</a>
             </nav>
             <div className={st.icons}>
