@@ -7,6 +7,8 @@ import Menu from './components/Menu/Menu';
 import Products from './components/Products/Products';
 import Review from './components/Review/Review';
 import Contact from './components/Contact/Contact';
+import Blogs from './components/Blogs/Blogs';
+import Footer from './components/Footer/Footer';
 
 function App() {
     return (
@@ -18,6 +20,8 @@ function App() {
             <Products/>
             <Review/>
             <Contact/>
+            <Blogs/>
+            <Footer/>
         </div>
     );
 }

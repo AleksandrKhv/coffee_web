@@ -4,7 +4,7 @@ import {FaEnvelope, FaPhone, FaUser} from 'react-icons/fa';
 
 const Contact = () => {
     return (
-        <section className={st.contact} id={"contact"}>
+        <section className={st.contact} id="contact">
 
             <h1 className={st.heading}><span>contact</span> us </h1>
 
