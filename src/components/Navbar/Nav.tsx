@@ -35,13 +35,13 @@ const Nav = () => {
     return (
         <>
             <nav className={st.navbar}>
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#menu">Menu</a>
-                <a href="#products">Products</a>
-                <a href="#review">Review</a>
-                <a href="#contacts">Contact</a>
-                <a href="#blogs">Blogs</a>
+                <a href={"#home"}>Home</a>
+                <a href={"#about"}>About</a>
+                <a href={"#menu"}>Menu</a>
+                <a href={"#products"}>Products</a>
+                <a href={"#review"}>Review</a>
+                <a href={"#contact"}>Contact</a>
+                <a href={"#blogs"}>Blogs</a>
             </nav>
             <div className={st.icons}>
                 <div className={st.fas_fa_search} id={'search-btn'}><FaSearch/></div>
@@ -55,7 +55,7 @@ const Nav = () => {
             <div className={st.cart_items_container}>
                 <div className={st.cart_item}>
                     <span className={st.fa_times}/>
-                    <img src={cart_item_1} alt=""/>
+                    <img src={cart_item_1} alt={""}/>
                         <div className={st.content}>
                             <h3>cart item 01</h3>
                             <div className={st.price}>$15.99/-</div>
@@ -63,7 +63,7 @@ const Nav = () => {
                 </div>
                 <div className={st.cart_item}>
                     <span className={st.fa_times}/>
-                    <img src={cart_item_2} alt=""/>
+                    <img src={cart_item_2} alt={""}/>
                         <div className={st.content}>
                             <h3>cart item 02</h3>
                             <div className={st.price}>$15.99/-</div>
@@ -71,7 +71,7 @@ const Nav = () => {
                 </div>
                 <div className={st.cart_item}>
                     <span className={st.fa_times}/>
-                    <img src={cart_item_3} alt=""/>
+                    <img src={cart_item_3} alt={""}/>
                         <div className={st.content}>
                             <h3>cart item 03</h3>
                             <div className={st.price}>$15.99/-</div>
@@ -79,13 +79,13 @@ const Nav = () => {
                 </div>
                 <div className={st.cart_item}>
                     <span className={st.fa_times}/>
-                    <img src={cart_item_4} alt=""/>
+                    <img src={cart_item_4} alt={""}/>
                         <div className={st.content}>
                             <h3>cart item 04</h3>
                             <div className={st.price}>$15.99/-</div>
                         </div>
                 </div>
-                <a href="#" className={st.btn}>checkout now</a>
+                <a href={"#"} className={st.btn}>checkout now</a>
             </div>
         </>
     );
