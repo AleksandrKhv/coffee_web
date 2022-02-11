@@ -1,6 +1,10 @@
 import React from 'react';
 import st from './Review.module.css'
 import quote_img from './../../images/quote-img.png'
+import pic_1 from './../../images/pic-1.png'
+import pic_2 from './../../images/pic-2.png'
+import pic_3 from './../../images/pic-3.png'
+import {FaStar, FaStarHalfAlt} from 'react-icons/fa';
 
 const Review = () => {
     return (
@@ -15,46 +19,46 @@ const Review = () => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga
                             sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex
                             aliquam minus vel? Nemo.</p>
-                        <img src="images/pic-1.png" className="user" alt=""/>
+                        <img src={pic_1} className={st.user} alt=""/>
                             <h3>john deo</h3>
-                            <div className="stars">
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star-half-alt"></i>
+                            <div className={st.stars}>
+                                <i className={st.fas_fa_star}><FaStar/></i>
+                                <i className={st.fas_fa_star}><FaStar/></i>
+                                <i className={st.fas_fa_star}><FaStar/></i>
+                                <i className={st.fas_fa_star}><FaStar/></i>
+                                <i className={st.fas_fa_star_half_alt}><FaStarHalfAlt/></i>
                             </div>
                 </div>
 
-                <div className="box">
-                    <img src={quote_img} alt="" className="quote"/>
+                <div className={st.box}>
+                    <img src={quote_img} alt="" className={st.quote}/>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga
                             sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex
                             aliquam minus vel? Nemo.</p>
-                        <img src="images/pic-2.png" className="user" alt=""/>
+                        <img src={pic_2} className={st.user} alt=""/>
                             <h3>john deo</h3>
-                            <div className="stars">
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star-half-alt"></i>
+                            <div className={st.stars}>
+                                <i className={st.fas_fa_star}><FaStar/></i>
+                                <i className={st.fas_fa_star}><FaStar/></i>
+                                <i className={st.fas_fa_star}><FaStar/></i>
+                                <i className={st.fas_fa_star}><FaStar/></i>
+                                <i className={st.fas_fa_star_half_alt}><FaStarHalfAlt/></i>
                             </div>
                 </div>
 
-                <div className="box">
-                    <img src={quote_img} alt="" className="quote"/>
+                <div className={st.box}>
+                    <img src={quote_img} alt="" className={st.quote}/>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga
                             sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex
                             aliquam minus vel? Nemo.</p>
-                        <img src="images/pic-3.png" className="user" alt=""/>
+                        <img src={pic_3} className={st.user} alt=""/>
                             <h3>john deo</h3>
-                            <div className="stars">
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star-half-alt"></i>
+                            <div className={st.stars}>
+                                <i className={st.fas_fa_star}><FaStar/></i>
+                                <i className={st.fas_fa_star}><FaStar/></i>
+                                <i className={st.fas_fa_star}><FaStar/></i>
+                                <i className={st.fas_fa_star}><FaStar/></i>
+                                <i className={st.fas_fa_star_half_alt}><FaStarHalfAlt/></i>
                             </div>
                 </div>
 
