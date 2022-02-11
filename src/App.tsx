@@ -6,6 +6,7 @@ import About from './components/About/About';
 import Menu from './components/Menu/Menu';
 import Products from './components/Products/Products';
 import Review from './components/Review/Review';
+import Contact from './components/Contact/Contact';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             <Menu/>
             <Products/>
             <Review/>
+            <Contact/>
         </div>
     );
 }
